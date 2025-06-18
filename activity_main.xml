@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:gravity="center"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="20dp" android:background="#111">
+    <Button
+        android:id="@+id/scanBtn"
+        android:text="Start Scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF0000"
+        android:textColor="#fff"
+        android:padding="15dp"/>
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_marginTop="30dp"
+        android:textSize="18sp"
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
